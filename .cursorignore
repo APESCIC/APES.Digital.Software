@@ -1,0 +1,31 @@
+# Env and credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/credentials.txt
+**/*credentials*.txt
+**/*.pem
+**/*.key
+!**/*.key.pub
+**/id_rsa
+**/id_ed25519
+**/*secret*
+!**/*secret*.md
+!**/*secret*.example
+
+# Dependency and generated trees (when the app exists)
+vendor/
+node_modules/
+dist/
+build/
+public/build/
+public/hot
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+.phpunit.result.cache
+coverage/
